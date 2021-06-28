@@ -10,7 +10,7 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
+  organizationName: "Fieldproxy", // Usually your GitHub org/user name.
   projectName: "fp-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -68,7 +68,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/Fieldproxy/fp-docs/",
             },
           ],
         },
@@ -88,13 +88,12 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+            "https://github.com/Fieldproxy/fp-docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/Fieldproxy/fp-docs/edit/main/blog/",
         },
       
         theme: {
