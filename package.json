@@ -13,6 +13,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
+    "deploySurge": "docusaurus build && cd build/ && surge --domain http://fpdocs.surge.sh/",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",

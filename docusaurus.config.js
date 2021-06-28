@@ -5,7 +5,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 module.exports = {
   title: "Fieldproxy Docs",
   tagline: "Documentation for you workflows",
-  url: "https://fieldproxy.com/",
+  url: "https://fieldproxy.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
