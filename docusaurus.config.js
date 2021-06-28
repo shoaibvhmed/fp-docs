@@ -16,7 +16,7 @@ module.exports = {
     navbar: {
       title: "FP Docs",
       logo: {
-        alt: "My Site Logo",
+        alt: "Fieldproxy Logo",
         src: "img/icon.png",
       },
       items: [
@@ -26,6 +26,7 @@ module.exports = {
           position: "left",
           label: "Tutorial",
         },
+        // { to: "/faq", label: "FAQ", position: "left" },
         { to: "/blog", label: "Blog", position: "left" },
       ],
     },
@@ -72,7 +73,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Fieldproxy. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -95,6 +96,7 @@ module.exports = {
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
+      
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },

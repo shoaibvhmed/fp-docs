@@ -1,0 +1,11 @@
+.sidebar {
+    height: inherit;
+    border-right: 1px solid black ;
+    padding: 16px;
+
+}
+
+.mainbar {
+    width: 100%;
+    padding: 16px;
+}

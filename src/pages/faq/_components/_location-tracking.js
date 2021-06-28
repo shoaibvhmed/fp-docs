@@ -1,13 +1,13 @@
 import React from "react";
 import Layout from "@theme/Layout";
 
-export default function Faq() {
+export default function Location() {
   return (
     <Layout
-      title="Welcome to FAQ's"
-      description="Description will go into a meta tag in <head />"
+      title="Location"
+      description="All your FAQ's answered here"
     >
-      <h1> Welcome to FAQ </h1>
+      <h1> Location Tracking </h1>
       <p> Fieldproxy's FAQ's answered here. </p>
     </Layout>
   );
