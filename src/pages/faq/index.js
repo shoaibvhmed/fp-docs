@@ -6,8 +6,8 @@ import { locationTracking } from "../../components/Faq/faqSources";
 export default function Faq() {
   return (
     <Layout
-      title="FAQ's"
-      description="All your FAQ's answered here"
+      title="FAQ"
+      description="All your FAQ answered here"
     >
     <div className="docs-wrapper doc-page" > 
         <aside className={styles.sidebar}>

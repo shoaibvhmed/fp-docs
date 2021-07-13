@@ -2,34 +2,19 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Fieldproxy in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **creating a new account**.
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+Visit **[client.fieldproxy.com](https://client.fieldproxy.com/signup)** to create a new account for your organization.
 
-## Generate a new site
+## Login
 
-Generate a new Docusaurus site using the **classic template**:
+If already signed up login via **[Login](https://client.fieldproxy.com/login)**
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+Create a new workflow site using existing templates.
 
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.

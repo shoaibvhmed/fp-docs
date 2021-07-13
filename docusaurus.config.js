@@ -24,10 +24,10 @@ module.exports = {
           type: "doc",
           docId: "intro",
           position: "left",
-          label: "Tutorial",
+          label: "FAQ",
         },
         // { to: "/faq", label: "FAQ", position: "left" },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
       ],
     },
     footer: {
@@ -46,16 +46,16 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/snippt/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Facebook",
+              href: "https://www.facebook.com/fieldproxy/",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/fieldproxy",
             },
           ],
         },
@@ -81,19 +81,19 @@ module.exports = {
     },
   },
   presets: [
-    [
+    [ 
       "@docusaurus/preset-classic",
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/Fieldproxy/fp-docs/edit/main/",
+          // editUrl:
+          //   "https://github.com/Fieldproxy/fp-docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/Fieldproxy/fp-docs/edit/main/blog/",
+          // editUrl:
+          //   "https://github.com/Fieldproxy/fp-docs/edit/main/blog/",
         },
       
         theme: {
