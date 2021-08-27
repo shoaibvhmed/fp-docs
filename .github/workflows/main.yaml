@@ -2,7 +2,7 @@ name: Push-to-FP-Dev
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   deploy:
