@@ -1,0 +1,30 @@
+name: Push-to-FP-Dev
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    name: Push to EC2 Instance for FP Prod
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v1
+        
+      - name: Install npm dependencies
+        run: npm install
+        
+
+      - name: Install npm dependencies
+        run: npm run build
+
+      - name: Deploy to my EC2 instance
+        uses: easingthemes/ssh-deploy@v2.1.5
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.MASTER_ACTION_KEY }}
+          SOURCE: "./"
+          REMOTE_HOST: "161.202.164.102"
+          REMOTE_USER: "root"
+          TARGET: "/var/www/docs.fieldproxy.com"
